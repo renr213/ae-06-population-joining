@@ -1,6 +1,7 @@
 
 /*joining_files/
 .DS_Store
+*.Rproj
 
 # History files
 .Rhistory
