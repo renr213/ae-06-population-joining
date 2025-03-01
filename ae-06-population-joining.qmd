@@ -85,13 +85,13 @@ continents
 ```
 
 -   **Demo:** All of these countries are actually in the `continents` data frame, but under different names. So, let's clean that data first by updating the country names in the `population` data frame in a way they will match the `continents` data frame, and then joining them, using a `case_when()` statement in `mutate()`. At the end, check that all countries now have continent information.
+ We will also multiply the population by 1000, as The World Bank population data are recorded in thousands.
 
 ```{r}
 #| label: data-clean
 
 # add code here
 ```
-
 -   **Think out loud:** Which continent do you think has the highest population? Which do you think has the second highest? The lowest?
 
 Add your response here.
